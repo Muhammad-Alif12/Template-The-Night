@@ -1,0 +1,73 @@
+@media all and (max-width: 800px) {
+    .header .navbar ul li{
+      display : none;
+    }
+    .header .navbar span.menu-icon{
+      display : block;
+    }
+    .header .jumbotron .text {
+        padding: 140px 0px 0px 10px;
+        font-size: 30px;
+    }
+    .header .jumbotron .gambar {
+        display: none;
+    }
+    .main .about {
+        margin: 50px 15px;
+    }
+    .main .about p {
+        text-align: left;
+        line-height: 25px;
+        font-size: 13px;
+        float: left;
+    }
+    .main .contact {
+        width: 450px;
+        margin: 0px 10px 40px;
+    }
+    .main .contact input[type=text],textarea {
+        width: 430px;
+        padding: 12px 20px;
+        margin: 8px 10px;
+    }
+      .main .contact button {
+        width: 430px;
+        padding: 16px 32px;
+        margin: 10px 10px;
+    }
+    .footer {
+        position: absolute;
+        top : 2500px;
+    }
+
+ }
+
+ @media all and (max-width: 670px) {
+     
+    .header .navbar span.menu-icon{
+        display : block;
+    } 
+    .main .gambar-main {
+        width: 300px;
+        height: 350px;
+    }
+  
+    .main .contact {
+        width: 250px;
+        margin: 0px 30px 30px;
+    }
+    .main .contact input[type=text],textarea {
+        width: 230px;
+        padding: 12px 20px;
+        margin: 8px 10px;
+    }
+    .main .contact button {
+        width: 230px;
+        padding: 16px 32px;
+        margin: 10px 10px;
+    }
+    .footer {
+        display: none;
+    }
+  
+  }
